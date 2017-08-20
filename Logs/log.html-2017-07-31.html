@@ -1,0 +1,4398 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Automation Log</title>
+<meta charset="utf-8"><style type="text/css">
+<!--
+body, table {font-family: '微软雅黑',arial,sans-serif; font-size: 12px;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th width="13%">执行时间</th>
+<th width="8%">级别</th>
+<th width="15%">所在行</th>
+<th>信息</th>
+</tr>
+<br></br>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:51</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#E4FFD9&quot;&gt;请求参数为：【[appid=wx17b22d8fa02d4c00, grant_type=client_credential, secret=71003eb6deda64b9722bdeec6c0c7364]】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:51</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">开始执行get请求https://api.weixin.qq.com/cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:51</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAddCookies.java:122</td>
+<td title="信息">CookieSpec selected: default</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:51</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAuthCache.java:76</td>
+<td title="信息">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:51</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:249</td>
+<td title="信息">Connection request: [route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:51</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:282</td>
+<td title="信息">Connection leased: [id: 0][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:51</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:234</td>
+<td title="信息">Opening connection {s}-&gt;https://api.weixin.qq.com:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:51</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:138</td>
+<td title="信息">Connecting to api.weixin.qq.com/183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:51</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:335</td>
+<td title="信息">Connecting socket to api.weixin.qq.com/183.57.48.62:443 with timeout 0</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:388</td>
+<td title="信息">Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:389</td>
+<td title="信息">Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:393</td>
+<td title="信息">Starting handshake</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:423</td>
+<td title="信息">Secure session established</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:424</td>
+<td title="信息"> negotiated protocol: TLSv1.2</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:425</td>
+<td title="信息"> negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:433</td>
+<td title="信息"> peer principal: CN=mp.weixin.qq.com, OU=R&amp;D, O=Shenzhen Tencent Computer Systems Company Limited, L=Shenzhen, ST=Guangdong, C=CN</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:442</td>
+<td title="信息"> peer alternative names: [servicewechat.com, developers.weixin.qq.com, sz.open.weixin.qq.com, open.weixin.qq.com, a.weixin.qq.com, mp.weixinbridge.com, game.weixin.qq.com, api.weixin.qq.com, sz.mp.weixin.qq.com, hk.open.weixin.qq.com, sz.api.weixin.qq.com, sh.api.weixin.qq.com, long.open.weixin.qq.com, hk.mp.weixin.qq.com, hk.api.weixin.qq.com, mp.weixin.qq.com]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:446</td>
+<td title="信息"> issuer principal: CN=GeoTrust SSL CA - G3, O=GeoTrust Inc., C=US</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:145</td>
+<td title="信息">Connection established 192.168.0.103:53294&lt;-&gt;183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:255</td>
+<td title="信息">Executing request GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:260</td>
+<td title="信息">Target auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:266</td>
+<td title="信息">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:135</td>
+<td title="信息">http-outgoing-0 &gt;&gt; GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; Host: api.weixin.qq.com</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; Connection: Keep-Alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; Accept-Encoding: gzip,deflate</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp; HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;Host: api.weixin.qq.com[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Content-Type: application/json; encoding=utf-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Date: Sun, 30 Jul 2017 16:00:34 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Content-Length: 175[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:86</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;{&quot;access_token&quot;:&quot;W7xPUfpgLVWHKZzPjTzvcS8d6v8PfDh2MCm-5XeEocLuUAGISP5Ei6X7GZd-ytcDlA5MjehF8Tb4jEZrkmbRukRDtjVc5Eu5L_r6xP6FEm_5daHeJsWLjztdB4vkJbFqVZAfACAHLM&quot;,&quot;expires_in&quot;:7200}&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:124</td>
+<td title="信息">http-outgoing-0 &lt;&lt; HTTP/1.1 200 OK</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Content-Type: application/json; encoding=utf-8</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Date: Sun, 30 Jul 2017 16:00:34 GMT</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Content-Length: 175</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:284</td>
+<td title="信息">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:314</td>
+<td title="信息">Connection [id: 0][route: {s}-&gt;https://api.weixin.qq.com:443] can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:320</td>
+<td title="信息">Connection released: [id: 0][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">响应内容为：【{&quot;access_token&quot;:&quot;W7xPUfpgLVWHKZzPjTzvcS8d6v8PfDh2MCm-5XeEocLuUAGISP5Ei6X7GZd-ytcDlA5MjehF8Tb4jEZrkmbRukRDtjVc5Eu5L_r6xP6FEm_5daHeJsWLjztdB4vkJbFqVZAfACAHLM&quot;,&quot;expires_in&quot;:7200}】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:388</td>
+<td title="信息">Connection manager is shutting down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:81</td>
+<td title="信息">http-outgoing-0: Close connection</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:394</td>
+<td title="信息">Connection manager shut down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#FFE500&quot;&gt;【$.expires_in】解析的内容为：【7200】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:52</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">CheckPoint.java:261</td>
+<td title="信息">&lt;P style=&quot;font-size:1em;color:#1C9340;&quot;&gt;&lt;b&gt;┌────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├────────┐&lt;br&gt;[目标]：检查是否一样&lt;br&gt;[实际]：7200　[预期]：7200&lt;br&gt;└─────────────────────────────┘&lt;/b&gt;&lt;/P&gt;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#E4FFD9&quot;&gt;请求参数为：【[appid=wx17b22d8fa02d4c00, grant_type=client_credential, secret=71003eb6deda64b9722bdeec6c0c7361]】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">开始执行get请求https://api.weixin.qq.com/cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAddCookies.java:122</td>
+<td title="信息">CookieSpec selected: default</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAuthCache.java:76</td>
+<td title="信息">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:249</td>
+<td title="信息">Connection request: [route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:282</td>
+<td title="信息">Connection leased: [id: 1][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:234</td>
+<td title="信息">Opening connection {s}-&gt;https://api.weixin.qq.com:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:138</td>
+<td title="信息">Connecting to api.weixin.qq.com/183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:335</td>
+<td title="信息">Connecting socket to api.weixin.qq.com/183.57.48.62:443 with timeout 0</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:388</td>
+<td title="信息">Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:389</td>
+<td title="信息">Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:393</td>
+<td title="信息">Starting handshake</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:423</td>
+<td title="信息">Secure session established</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:424</td>
+<td title="信息"> negotiated protocol: TLSv1.2</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:425</td>
+<td title="信息"> negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:433</td>
+<td title="信息"> peer principal: CN=mp.weixin.qq.com, OU=R&amp;D, O=Shenzhen Tencent Computer Systems Company Limited, L=Shenzhen, ST=Guangdong, C=CN</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:442</td>
+<td title="信息"> peer alternative names: [servicewechat.com, developers.weixin.qq.com, sz.open.weixin.qq.com, open.weixin.qq.com, a.weixin.qq.com, mp.weixinbridge.com, game.weixin.qq.com, api.weixin.qq.com, sz.mp.weixin.qq.com, hk.open.weixin.qq.com, sz.api.weixin.qq.com, sh.api.weixin.qq.com, long.open.weixin.qq.com, hk.mp.weixin.qq.com, hk.api.weixin.qq.com, mp.weixin.qq.com]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:446</td>
+<td title="信息"> issuer principal: CN=GeoTrust SSL CA - G3, O=GeoTrust Inc., C=US</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:145</td>
+<td title="信息">Connection established 192.168.0.103:53295&lt;-&gt;183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:255</td>
+<td title="信息">Executing request GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:260</td>
+<td title="信息">Target auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:266</td>
+<td title="信息">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:135</td>
+<td title="信息">http-outgoing-1 &gt;&gt; GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; Host: api.weixin.qq.com</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; Connection: Keep-Alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; Accept-Encoding: gzip,deflate</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp; HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;Host: api.weixin.qq.com[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Content-Type: application/json; encoding=utf-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Date: Sun, 30 Jul 2017 16:00:35 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Content-Length: 101[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:86</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;{&quot;errcode&quot;:40125,&quot;errmsg&quot;:&quot;invalid appsecret, view more at http:\/\/t.cn\/RAEkdVq hint: [m0435e606]&quot;}&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:124</td>
+<td title="信息">http-outgoing-1 &lt;&lt; HTTP/1.1 200 OK</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Content-Type: application/json; encoding=utf-8</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Date: Sun, 30 Jul 2017 16:00:35 GMT</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Content-Length: 101</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:284</td>
+<td title="信息">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:314</td>
+<td title="信息">Connection [id: 1][route: {s}-&gt;https://api.weixin.qq.com:443] can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:320</td>
+<td title="信息">Connection released: [id: 1][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">响应内容为：【{&quot;errcode&quot;:40125,&quot;errmsg&quot;:&quot;invalid appsecret, view more at http:\/\/t.cn\/RAEkdVq hint: [m0435e606]&quot;}】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:388</td>
+<td title="信息">Connection manager is shutting down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:81</td>
+<td title="信息">http-outgoing-1: Close connection</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:394</td>
+<td title="信息">Connection manager shut down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#FFE500&quot;&gt;【$.errcode】解析的内容为：【40125】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">CheckPoint.java:261</td>
+<td title="信息">&lt;P style=&quot;font-size:1em;color:#1C9340;&quot;&gt;&lt;b&gt;┌────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├────────┐&lt;br&gt;[目标]：检查是否一样&lt;br&gt;[实际]：40125　[预期]：40125&lt;br&gt;└─────────────────────────────┘&lt;/b&gt;&lt;/P&gt;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;index.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;index_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;index.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:53</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;index.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;head.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;head_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;head.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;head.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;nav.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;nav_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;nav.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;nav.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;test-view/test-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;test-view/test-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;test-view/test-view-charts.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view-charts_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view-charts.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;test-view/test-view-charts.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;test-view/standard.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/standard_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/standard.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;test-view/standard.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">&quot;test-view/standard.ftl&quot;(&quot;en&quot;, UTF-8, parsed) cached copy not yet stale; using cached.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;category-view/category-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;category-view/category-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;category-view/category-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;category-view/category-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;author-view/author-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;author-view/author-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;author-view/author-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;author-view/author-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;exception-view/exception-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;exception-view/exception-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;exception-view/exception-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;exception-view/exception-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;dashboard-view/dashboard-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;dashboard-view/dashboard-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;dashboard-view/dashboard-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;dashboard-view/dashboard-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;logs-view/testrunner-logs-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;logs-view/testrunner-logs-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;logs-view/testrunner-logs-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:00:54</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;logs-view/testrunner-logs-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl&quot;</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Automation Log</title>
+<meta charset="utf-8"><style type="text/css">
+<!--
+body, table {font-family: '微软雅黑',arial,sans-serif; font-size: 12px;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th width="13%">执行时间</th>
+<th width="8%">级别</th>
+<th width="15%">所在行</th>
+<th>信息</th>
+</tr>
+<br></br>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:57</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#E4FFD9&quot;&gt;请求参数为：【[appid=wx17b22d8fa02d4c00, grant_type=client_credential, secret=71003eb6deda64b9722bdeec6c0c7364]】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">开始执行get请求https://api.weixin.qq.com/cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAddCookies.java:122</td>
+<td title="信息">CookieSpec selected: default</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAuthCache.java:76</td>
+<td title="信息">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:249</td>
+<td title="信息">Connection request: [route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:282</td>
+<td title="信息">Connection leased: [id: 0][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:234</td>
+<td title="信息">Opening connection {s}-&gt;https://api.weixin.qq.com:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:138</td>
+<td title="信息">Connecting to api.weixin.qq.com/183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:335</td>
+<td title="信息">Connecting socket to api.weixin.qq.com/183.57.48.62:443 with timeout 0</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:388</td>
+<td title="信息">Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:389</td>
+<td title="信息">Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:393</td>
+<td title="信息">Starting handshake</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:423</td>
+<td title="信息">Secure session established</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:424</td>
+<td title="信息"> negotiated protocol: TLSv1.2</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:425</td>
+<td title="信息"> negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:433</td>
+<td title="信息"> peer principal: CN=mp.weixin.qq.com, OU=R&amp;D, O=Shenzhen Tencent Computer Systems Company Limited, L=Shenzhen, ST=Guangdong, C=CN</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:442</td>
+<td title="信息"> peer alternative names: [servicewechat.com, developers.weixin.qq.com, sz.open.weixin.qq.com, open.weixin.qq.com, a.weixin.qq.com, mp.weixinbridge.com, game.weixin.qq.com, api.weixin.qq.com, sz.mp.weixin.qq.com, hk.open.weixin.qq.com, sz.api.weixin.qq.com, sh.api.weixin.qq.com, long.open.weixin.qq.com, hk.mp.weixin.qq.com, hk.api.weixin.qq.com, mp.weixin.qq.com]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:446</td>
+<td title="信息"> issuer principal: CN=GeoTrust SSL CA - G3, O=GeoTrust Inc., C=US</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:145</td>
+<td title="信息">Connection established 192.168.0.103:53379&lt;-&gt;183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:255</td>
+<td title="信息">Executing request GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:260</td>
+<td title="信息">Target auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:266</td>
+<td title="信息">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:135</td>
+<td title="信息">http-outgoing-0 &gt;&gt; GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; Host: api.weixin.qq.com</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; Connection: Keep-Alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; Accept-Encoding: gzip,deflate</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp; HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;Host: api.weixin.qq.com[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Content-Type: application/json; encoding=utf-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Date: Sun, 30 Jul 2017 16:01:41 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Content-Length: 175[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:86</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;{&quot;access_token&quot;:&quot;72n55SxiIuTsyd7iYpkboRzycWRY98-MClozRpFTDYVlz-rKL31gV89nP3PZTwuYhdVScnjf6diClMUKgUNSS0pX4jKlQ0fRjaBtseBp6drMkUBNyiQZzShUxbm-6H92DDBaAEAHHF&quot;,&quot;expires_in&quot;:7200}&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:124</td>
+<td title="信息">http-outgoing-0 &lt;&lt; HTTP/1.1 200 OK</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Content-Type: application/json; encoding=utf-8</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Date: Sun, 30 Jul 2017 16:01:41 GMT</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Content-Length: 175</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:284</td>
+<td title="信息">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:314</td>
+<td title="信息">Connection [id: 0][route: {s}-&gt;https://api.weixin.qq.com:443] can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:320</td>
+<td title="信息">Connection released: [id: 0][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">响应内容为：【{&quot;access_token&quot;:&quot;72n55SxiIuTsyd7iYpkboRzycWRY98-MClozRpFTDYVlz-rKL31gV89nP3PZTwuYhdVScnjf6diClMUKgUNSS0pX4jKlQ0fRjaBtseBp6drMkUBNyiQZzShUxbm-6H92DDBaAEAHHF&quot;,&quot;expires_in&quot;:7200}】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:388</td>
+<td title="信息">Connection manager is shutting down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:81</td>
+<td title="信息">http-outgoing-0: Close connection</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:394</td>
+<td title="信息">Connection manager shut down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#FFE500&quot;&gt;【$.expires_in】解析的内容为：【7200】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">CheckPoint.java:261</td>
+<td title="信息">&lt;P style=&quot;font-size:1em;color:#1C9340;&quot;&gt;&lt;b&gt;┌────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├────────┐&lt;br&gt;[目标]：检查是否一样&lt;br&gt;[实际]：7200　[预期]：7200&lt;br&gt;└─────────────────────────────┘&lt;/b&gt;&lt;/P&gt;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#E4FFD9&quot;&gt;请求参数为：【[appid=wx17b22d8fa02d4c00, grant_type=client_credential, secret=71003eb6deda64b9722bdeec6c0c7361]】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">开始执行get请求https://api.weixin.qq.com/cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAddCookies.java:122</td>
+<td title="信息">CookieSpec selected: default</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAuthCache.java:76</td>
+<td title="信息">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:249</td>
+<td title="信息">Connection request: [route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:282</td>
+<td title="信息">Connection leased: [id: 1][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:234</td>
+<td title="信息">Opening connection {s}-&gt;https://api.weixin.qq.com:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:138</td>
+<td title="信息">Connecting to api.weixin.qq.com/183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:335</td>
+<td title="信息">Connecting socket to api.weixin.qq.com/183.57.48.62:443 with timeout 0</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:388</td>
+<td title="信息">Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:389</td>
+<td title="信息">Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:393</td>
+<td title="信息">Starting handshake</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:423</td>
+<td title="信息">Secure session established</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:424</td>
+<td title="信息"> negotiated protocol: TLSv1.2</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:425</td>
+<td title="信息"> negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:433</td>
+<td title="信息"> peer principal: CN=mp.weixin.qq.com, OU=R&amp;D, O=Shenzhen Tencent Computer Systems Company Limited, L=Shenzhen, ST=Guangdong, C=CN</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:442</td>
+<td title="信息"> peer alternative names: [servicewechat.com, developers.weixin.qq.com, sz.open.weixin.qq.com, open.weixin.qq.com, a.weixin.qq.com, mp.weixinbridge.com, game.weixin.qq.com, api.weixin.qq.com, sz.mp.weixin.qq.com, hk.open.weixin.qq.com, sz.api.weixin.qq.com, sh.api.weixin.qq.com, long.open.weixin.qq.com, hk.mp.weixin.qq.com, hk.api.weixin.qq.com, mp.weixin.qq.com]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:446</td>
+<td title="信息"> issuer principal: CN=GeoTrust SSL CA - G3, O=GeoTrust Inc., C=US</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:145</td>
+<td title="信息">Connection established 192.168.0.103:53380&lt;-&gt;183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:255</td>
+<td title="信息">Executing request GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:260</td>
+<td title="信息">Target auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:266</td>
+<td title="信息">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:135</td>
+<td title="信息">http-outgoing-1 &gt;&gt; GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; Host: api.weixin.qq.com</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; Connection: Keep-Alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; Accept-Encoding: gzip,deflate</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp; HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;Host: api.weixin.qq.com[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Content-Type: application/json; encoding=utf-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Date: Sun, 30 Jul 2017 16:01:41 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Content-Length: 106[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:86</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;{&quot;errcode&quot;:40125,&quot;errmsg&quot;:&quot;invalid appsecret, view more at http:\/\/t.cn\/RAEkdVq hint: [zQ..LA0501e578]&quot;}&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:124</td>
+<td title="信息">http-outgoing-1 &lt;&lt; HTTP/1.1 200 OK</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Content-Type: application/json; encoding=utf-8</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Date: Sun, 30 Jul 2017 16:01:41 GMT</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Content-Length: 106</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:284</td>
+<td title="信息">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:314</td>
+<td title="信息">Connection [id: 1][route: {s}-&gt;https://api.weixin.qq.com:443] can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:320</td>
+<td title="信息">Connection released: [id: 1][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">响应内容为：【{&quot;errcode&quot;:40125,&quot;errmsg&quot;:&quot;invalid appsecret, view more at http:\/\/t.cn\/RAEkdVq hint: [zQ..LA0501e578]&quot;}】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:388</td>
+<td title="信息">Connection manager is shutting down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:81</td>
+<td title="信息">http-outgoing-1: Close connection</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:394</td>
+<td title="信息">Connection manager shut down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#FFE500&quot;&gt;【$.errcode】解析的内容为：【40125】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">CheckPoint.java:261</td>
+<td title="信息">&lt;P style=&quot;font-size:1em;color:#1C9340;&quot;&gt;&lt;b&gt;┌────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├────────┐&lt;br&gt;[目标]：检查是否一样&lt;br&gt;[实际]：40125　[预期]：40125&lt;br&gt;└─────────────────────────────┘&lt;/b&gt;&lt;/P&gt;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;index.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;index_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;index.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:01:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;index.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;head.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;head_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;head.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;head.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;nav.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;nav_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;nav.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;nav.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;test-view/test-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;test-view/test-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;test-view/test-view-charts.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view-charts_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view-charts.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;test-view/test-view-charts.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;test-view/standard.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/standard_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/standard.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;test-view/standard.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">&quot;test-view/standard.ftl&quot;(&quot;en&quot;, UTF-8, parsed) cached copy not yet stale; using cached.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;category-view/category-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;category-view/category-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;category-view/category-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;category-view/category-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;author-view/author-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;author-view/author-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;author-view/author-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;author-view/author-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;exception-view/exception-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;exception-view/exception-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;exception-view/exception-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;exception-view/exception-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;dashboard-view/dashboard-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;dashboard-view/dashboard-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;dashboard-view/dashboard-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;dashboard-view/dashboard-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;logs-view/testrunner-logs-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;logs-view/testrunner-logs-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;logs-view/testrunner-logs-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:00</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;logs-view/testrunner-logs-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl&quot;</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Automation Log</title>
+<meta charset="utf-8"><style type="text/css">
+<!--
+body, table {font-family: '微软雅黑',arial,sans-serif; font-size: 12px;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th width="13%">执行时间</th>
+<th width="8%">级别</th>
+<th width="15%">所在行</th>
+<th>信息</th>
+</tr>
+<br></br>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:36</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#E4FFD9&quot;&gt;请求参数为：【[appid=wx17b22d8fa02d4c00, grant_type=client_credential, secret=71003eb6deda64b9722bdeec6c0c7364]】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">开始执行get请求https://api.weixin.qq.com/cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAddCookies.java:122</td>
+<td title="信息">CookieSpec selected: default</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAuthCache.java:76</td>
+<td title="信息">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:249</td>
+<td title="信息">Connection request: [route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:282</td>
+<td title="信息">Connection leased: [id: 0][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:234</td>
+<td title="信息">Opening connection {s}-&gt;https://api.weixin.qq.com:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:138</td>
+<td title="信息">Connecting to api.weixin.qq.com/183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:335</td>
+<td title="信息">Connecting socket to api.weixin.qq.com/183.57.48.62:443 with timeout 0</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:388</td>
+<td title="信息">Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:389</td>
+<td title="信息">Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:393</td>
+<td title="信息">Starting handshake</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:423</td>
+<td title="信息">Secure session established</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:424</td>
+<td title="信息"> negotiated protocol: TLSv1.2</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:425</td>
+<td title="信息"> negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:433</td>
+<td title="信息"> peer principal: CN=mp.weixin.qq.com, OU=R&amp;D, O=Shenzhen Tencent Computer Systems Company Limited, L=Shenzhen, ST=Guangdong, C=CN</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:442</td>
+<td title="信息"> peer alternative names: [servicewechat.com, developers.weixin.qq.com, sz.open.weixin.qq.com, open.weixin.qq.com, a.weixin.qq.com, mp.weixinbridge.com, game.weixin.qq.com, api.weixin.qq.com, sz.mp.weixin.qq.com, hk.open.weixin.qq.com, sz.api.weixin.qq.com, sh.api.weixin.qq.com, long.open.weixin.qq.com, hk.mp.weixin.qq.com, hk.api.weixin.qq.com, mp.weixin.qq.com]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:446</td>
+<td title="信息"> issuer principal: CN=GeoTrust SSL CA - G3, O=GeoTrust Inc., C=US</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:145</td>
+<td title="信息">Connection established 192.168.0.103:53398&lt;-&gt;183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:255</td>
+<td title="信息">Executing request GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:260</td>
+<td title="信息">Target auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:266</td>
+<td title="信息">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:135</td>
+<td title="信息">http-outgoing-0 &gt;&gt; GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; Host: api.weixin.qq.com</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; Connection: Keep-Alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; Accept-Encoding: gzip,deflate</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp; HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;Host: api.weixin.qq.com[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Content-Type: application/json; encoding=utf-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Date: Sun, 30 Jul 2017 16:02:20 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Content-Length: 175[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:86</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;{&quot;access_token&quot;:&quot;Icm2zrSaFU_XrpQSxIwOTcvpnbRdKTu-mBorn57A2gse8N6MABCdREeCDhi61t4HMP9PXCELbHGk_--byZnwCY-hU9Ie1m9OYRjPMGJMFc8Jahwc5G4U10CW9EX0fkbEJQIdAIADKC&quot;,&quot;expires_in&quot;:7200}&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:124</td>
+<td title="信息">http-outgoing-0 &lt;&lt; HTTP/1.1 200 OK</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Content-Type: application/json; encoding=utf-8</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Date: Sun, 30 Jul 2017 16:02:20 GMT</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Content-Length: 175</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:284</td>
+<td title="信息">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:314</td>
+<td title="信息">Connection [id: 0][route: {s}-&gt;https://api.weixin.qq.com:443] can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:320</td>
+<td title="信息">Connection released: [id: 0][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">响应内容为：【{&quot;access_token&quot;:&quot;Icm2zrSaFU_XrpQSxIwOTcvpnbRdKTu-mBorn57A2gse8N6MABCdREeCDhi61t4HMP9PXCELbHGk_--byZnwCY-hU9Ie1m9OYRjPMGJMFc8Jahwc5G4U10CW9EX0fkbEJQIdAIADKC&quot;,&quot;expires_in&quot;:7200}】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:388</td>
+<td title="信息">Connection manager is shutting down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:81</td>
+<td title="信息">http-outgoing-0: Close connection</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:37</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:394</td>
+<td title="信息">Connection manager shut down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#FFE500&quot;&gt;【$.expires_in】解析的内容为：【7200】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">CheckPoint.java:261</td>
+<td title="信息">&lt;P style=&quot;font-size:1em;color:#1C9340;&quot;&gt;&lt;b&gt;┌────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├────────┐&lt;br&gt;[目标]：检查是否一样&lt;br&gt;[实际]：7200　[预期]：7200&lt;br&gt;└─────────────────────────────┘&lt;/b&gt;&lt;/P&gt;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#E4FFD9&quot;&gt;请求参数为：【[appid=wx17b22d8fa02d4c00, grant_type=client_credential, secret=71003eb6deda64b9722bdeec6c0c7361]】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">开始执行get请求https://api.weixin.qq.com/cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAddCookies.java:122</td>
+<td title="信息">CookieSpec selected: default</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAuthCache.java:76</td>
+<td title="信息">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:249</td>
+<td title="信息">Connection request: [route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:282</td>
+<td title="信息">Connection leased: [id: 1][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:234</td>
+<td title="信息">Opening connection {s}-&gt;https://api.weixin.qq.com:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:138</td>
+<td title="信息">Connecting to api.weixin.qq.com/183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:335</td>
+<td title="信息">Connecting socket to api.weixin.qq.com/183.57.48.62:443 with timeout 0</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:388</td>
+<td title="信息">Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:389</td>
+<td title="信息">Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:393</td>
+<td title="信息">Starting handshake</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:423</td>
+<td title="信息">Secure session established</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:424</td>
+<td title="信息"> negotiated protocol: TLSv1.2</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:425</td>
+<td title="信息"> negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:433</td>
+<td title="信息"> peer principal: CN=mp.weixin.qq.com, OU=R&amp;D, O=Shenzhen Tencent Computer Systems Company Limited, L=Shenzhen, ST=Guangdong, C=CN</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:442</td>
+<td title="信息"> peer alternative names: [servicewechat.com, developers.weixin.qq.com, sz.open.weixin.qq.com, open.weixin.qq.com, a.weixin.qq.com, mp.weixinbridge.com, game.weixin.qq.com, api.weixin.qq.com, sz.mp.weixin.qq.com, hk.open.weixin.qq.com, sz.api.weixin.qq.com, sh.api.weixin.qq.com, long.open.weixin.qq.com, hk.mp.weixin.qq.com, hk.api.weixin.qq.com, mp.weixin.qq.com]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:446</td>
+<td title="信息"> issuer principal: CN=GeoTrust SSL CA - G3, O=GeoTrust Inc., C=US</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:145</td>
+<td title="信息">Connection established 192.168.0.103:53400&lt;-&gt;183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:255</td>
+<td title="信息">Executing request GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:260</td>
+<td title="信息">Target auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:266</td>
+<td title="信息">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:135</td>
+<td title="信息">http-outgoing-1 &gt;&gt; GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; Host: api.weixin.qq.com</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; Connection: Keep-Alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; Accept-Encoding: gzip,deflate</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp; HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;Host: api.weixin.qq.com[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Content-Type: application/json; encoding=utf-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Date: Sun, 30 Jul 2017 16:02:20 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Content-Length: 106[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:86</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;{&quot;errcode&quot;:40125,&quot;errmsg&quot;:&quot;invalid appsecret, view more at http:\/\/t.cn\/RAEkdVq hint: [mLI12a0540nfo1]&quot;}&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:124</td>
+<td title="信息">http-outgoing-1 &lt;&lt; HTTP/1.1 200 OK</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Content-Type: application/json; encoding=utf-8</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Date: Sun, 30 Jul 2017 16:02:20 GMT</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Content-Length: 106</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:284</td>
+<td title="信息">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:314</td>
+<td title="信息">Connection [id: 1][route: {s}-&gt;https://api.weixin.qq.com:443] can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:320</td>
+<td title="信息">Connection released: [id: 1][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">响应内容为：【{&quot;errcode&quot;:40125,&quot;errmsg&quot;:&quot;invalid appsecret, view more at http:\/\/t.cn\/RAEkdVq hint: [mLI12a0540nfo1]&quot;}】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:388</td>
+<td title="信息">Connection manager is shutting down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:81</td>
+<td title="信息">http-outgoing-1: Close connection</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:394</td>
+<td title="信息">Connection manager shut down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#FFE500&quot;&gt;【$.errcode】解析的内容为：【40125】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">CheckPoint.java:261</td>
+<td title="信息">&lt;P style=&quot;font-size:1em;color:#1C9340;&quot;&gt;&lt;b&gt;┌────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├────────┐&lt;br&gt;[目标]：检查是否一样&lt;br&gt;[实际]：40125　[预期]：40125&lt;br&gt;└─────────────────────────────┘&lt;/b&gt;&lt;/P&gt;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;index.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;index_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;index.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;index.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;head.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;head_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;head.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;head.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;nav.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;nav_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;nav.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;nav.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;test-view/test-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;test-view/test-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;test-view/test-view-charts.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view-charts_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view-charts.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;test-view/test-view-charts.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;test-view/standard.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/standard_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/standard.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;test-view/standard.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">&quot;test-view/standard.ftl&quot;(&quot;en&quot;, UTF-8, parsed) cached copy not yet stale; using cached.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;category-view/category-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;category-view/category-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;category-view/category-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;category-view/category-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;author-view/author-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;author-view/author-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;author-view/author-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;author-view/author-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;exception-view/exception-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;exception-view/exception-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;exception-view/exception-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;exception-view/exception-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;dashboard-view/dashboard-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;dashboard-view/dashboard-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;dashboard-view/dashboard-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;dashboard-view/dashboard-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;logs-view/testrunner-logs-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;logs-view/testrunner-logs-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;logs-view/testrunner-logs-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:02:38</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;logs-view/testrunner-logs-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl&quot;</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Automation Log</title>
+<meta charset="utf-8"><style type="text/css">
+<!--
+body, table {font-family: '微软雅黑',arial,sans-serif; font-size: 12px;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th width="13%">执行时间</th>
+<th width="8%">级别</th>
+<th width="15%">所在行</th>
+<th>信息</th>
+</tr>
+<br></br>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:55</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#E4FFD9&quot;&gt;请求参数为：【[appid=wx17b22d8fa02d4c00, grant_type=client_credential, secret=71003eb6deda64b9722bdeec6c0c7364]】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:55</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">开始执行get请求https://api.weixin.qq.com/cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:55</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAddCookies.java:122</td>
+<td title="信息">CookieSpec selected: default</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:55</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAuthCache.java:76</td>
+<td title="信息">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:55</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:249</td>
+<td title="信息">Connection request: [route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:55</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:282</td>
+<td title="信息">Connection leased: [id: 0][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:55</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:234</td>
+<td title="信息">Opening connection {s}-&gt;https://api.weixin.qq.com:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:55</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:138</td>
+<td title="信息">Connecting to api.weixin.qq.com/183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:55</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:335</td>
+<td title="信息">Connecting socket to api.weixin.qq.com/183.57.48.62:443 with timeout 0</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:56</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:388</td>
+<td title="信息">Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:56</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:389</td>
+<td title="信息">Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:56</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:393</td>
+<td title="信息">Starting handshake</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:423</td>
+<td title="信息">Secure session established</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:424</td>
+<td title="信息"> negotiated protocol: TLSv1.2</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:425</td>
+<td title="信息"> negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:433</td>
+<td title="信息"> peer principal: CN=mp.weixin.qq.com, OU=R&amp;D, O=Shenzhen Tencent Computer Systems Company Limited, L=Shenzhen, ST=Guangdong, C=CN</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:442</td>
+<td title="信息"> peer alternative names: [servicewechat.com, developers.weixin.qq.com, sz.open.weixin.qq.com, open.weixin.qq.com, a.weixin.qq.com, mp.weixinbridge.com, game.weixin.qq.com, api.weixin.qq.com, sz.mp.weixin.qq.com, hk.open.weixin.qq.com, sz.api.weixin.qq.com, sh.api.weixin.qq.com, long.open.weixin.qq.com, hk.mp.weixin.qq.com, hk.api.weixin.qq.com, mp.weixin.qq.com]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:446</td>
+<td title="信息"> issuer principal: CN=GeoTrust SSL CA - G3, O=GeoTrust Inc., C=US</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:145</td>
+<td title="信息">Connection established 192.168.0.103:53841&lt;-&gt;183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:255</td>
+<td title="信息">Executing request GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:260</td>
+<td title="信息">Target auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:266</td>
+<td title="信息">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:135</td>
+<td title="信息">http-outgoing-0 &gt;&gt; GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; Host: api.weixin.qq.com</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; Connection: Keep-Alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-0 &gt;&gt; Accept-Encoding: gzip,deflate</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7364&amp; HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;Host: api.weixin.qq.com[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Content-Type: application/json; encoding=utf-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Date: Sun, 30 Jul 2017 16:41:39 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;Content-Length: 154[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:86</td>
+<td title="信息">http-outgoing-0 &lt;&lt; &quot;{&quot;access_token&quot;:&quot;ePTgoalXKo5dI4Uf3Lmk-d2CA2y49g1f97wVVyai4S3QP97eWiwwz86miw8QsaYBO27mXSLcfLMi69vm1eknKygRb1O7-TwRyWxQM0JbHCALCQgAIADUI&quot;,&quot;expires_in&quot;:7200}&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:124</td>
+<td title="信息">http-outgoing-0 &lt;&lt; HTTP/1.1 200 OK</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Content-Type: application/json; encoding=utf-8</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Date: Sun, 30 Jul 2017 16:41:39 GMT</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-0 &lt;&lt; Content-Length: 154</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:284</td>
+<td title="信息">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:314</td>
+<td title="信息">Connection [id: 0][route: {s}-&gt;https://api.weixin.qq.com:443] can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:320</td>
+<td title="信息">Connection released: [id: 0][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">响应内容为：【{&quot;access_token&quot;:&quot;ePTgoalXKo5dI4Uf3Lmk-d2CA2y49g1f97wVVyai4S3QP97eWiwwz86miw8QsaYBO27mXSLcfLMi69vm1eknKygRb1O7-TwRyWxQM0JbHCALCQgAIADUI&quot;,&quot;expires_in&quot;:7200}】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:388</td>
+<td title="信息">Connection manager is shutting down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:81</td>
+<td title="信息">http-outgoing-0: Close connection</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:394</td>
+<td title="信息">Connection manager shut down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#FFE500&quot;&gt;【$.expires_in】解析的内容为：【7200】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;P style=&quot;font-size:1em;color:#1C9340;&quot;&gt;&lt;b&gt;┌────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├────────┐&lt;br&gt;[目标]：检查实际结果是否为真&lt;br&gt;[实际]：7200　[预期]：7200&lt;br&gt;└─────────────────────────────┘&lt;/b&gt;&lt;/P&gt;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">CheckPoint.java:262</td>
+<td title="信息">&lt;P style=&quot;font-size:1em;color:#1C9340;&quot;&gt;&lt;b&gt;┌────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├────────┐&lt;br&gt;[目标]：检查实际结果是否为真&lt;br&gt;[实际]：7200　[预期]：7200&lt;br&gt;└─────────────────────────────┘&lt;/b&gt;&lt;/P&gt;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#E4FFD9&quot;&gt;请求参数为：【[appid=wx17b22d8fa02d4c00, grant_type=client_credential, secret=71003eb6deda64b9722bdeec6c0c7361]】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">开始执行get请求https://api.weixin.qq.com/cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAddCookies.java:122</td>
+<td title="信息">CookieSpec selected: default</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">RequestAuthCache.java:76</td>
+<td title="信息">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:249</td>
+<td title="信息">Connection request: [route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:282</td>
+<td title="信息">Connection leased: [id: 1][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:234</td>
+<td title="信息">Opening connection {s}-&gt;https://api.weixin.qq.com:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:138</td>
+<td title="信息">Connecting to api.weixin.qq.com/183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:335</td>
+<td title="信息">Connecting socket to api.weixin.qq.com/183.57.48.62:443 with timeout 0</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:388</td>
+<td title="信息">Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:389</td>
+<td title="信息">Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:57</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:393</td>
+<td title="信息">Starting handshake</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:423</td>
+<td title="信息">Secure session established</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:424</td>
+<td title="信息"> negotiated protocol: TLSv1.2</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:425</td>
+<td title="信息"> negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:433</td>
+<td title="信息"> peer principal: CN=mp.weixin.qq.com, OU=R&amp;D, O=Shenzhen Tencent Computer Systems Company Limited, L=Shenzhen, ST=Guangdong, C=CN</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:442</td>
+<td title="信息"> peer alternative names: [servicewechat.com, developers.weixin.qq.com, sz.open.weixin.qq.com, open.weixin.qq.com, a.weixin.qq.com, mp.weixinbridge.com, game.weixin.qq.com, api.weixin.qq.com, sz.mp.weixin.qq.com, hk.open.weixin.qq.com, sz.api.weixin.qq.com, sh.api.weixin.qq.com, long.open.weixin.qq.com, hk.mp.weixin.qq.com, hk.api.weixin.qq.com, mp.weixin.qq.com]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">SSLConnectionSocketFactory.java:446</td>
+<td title="信息"> issuer principal: CN=GeoTrust SSL CA - G3, O=GeoTrust Inc., C=US</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">DefaultHttpClientConnectionOperator.java:145</td>
+<td title="信息">Connection established 192.168.0.103:53842&lt;-&gt;183.57.48.62:443</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:255</td>
+<td title="信息">Executing request GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:260</td>
+<td title="信息">Target auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:266</td>
+<td title="信息">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:135</td>
+<td title="信息">http-outgoing-1 &gt;&gt; GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp; HTTP/1.1</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; Host: api.weixin.qq.com</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; Connection: Keep-Alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:138</td>
+<td title="信息">http-outgoing-1 &gt;&gt; Accept-Encoding: gzip,deflate</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;GET /cgi-bin/token?appid=wx17b22d8fa02d4c00&amp;grant_type=client_credential&amp;secret=71003eb6deda64b9722bdeec6c0c7361&amp; HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;Host: api.weixin.qq.com[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Content-Type: application/json; encoding=utf-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Date: Sun, 30 Jul 2017 16:41:40 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;Content-Length: 106[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:72</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">Wire.java:86</td>
+<td title="信息">http-outgoing-1 &lt;&lt; &quot;{&quot;errcode&quot;:40125,&quot;errmsg&quot;:&quot;invalid appsecret, view more at http:\/\/t.cn\/RAEkdVq hint: [9IGXqa0900e606]&quot;}&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:124</td>
+<td title="信息">http-outgoing-1 &lt;&lt; HTTP/1.1 200 OK</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Content-Type: application/json; encoding=utf-8</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Date: Sun, 30 Jul 2017 16:41:40 GMT</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:127</td>
+<td title="信息">http-outgoing-1 &lt;&lt; Content-Length: 106</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">MainClientExec.java:284</td>
+<td title="信息">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:314</td>
+<td title="信息">Connection [id: 1][route: {s}-&gt;https://api.weixin.qq.com:443] can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:320</td>
+<td title="信息">Connection released: [id: 1][route: {s}-&gt;https://api.weixin.qq.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">响应内容为：【{&quot;errcode&quot;:40125,&quot;errmsg&quot;:&quot;invalid appsecret, view more at http:\/\/t.cn\/RAEkdVq hint: [9IGXqa0900e606]&quot;}】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:388</td>
+<td title="信息">Connection manager is shutting down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">LoggingManagedHttpClientConnection.java:81</td>
+<td title="信息">http-outgoing-1: Close connection</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">PoolingHttpClientConnectionManager.java:394</td>
+<td title="信息">Connection manager shut down</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;font color=&quot;#FFE500&quot;&gt;【$.errcode】解析的内容为：【40125】</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">ReportUtils.java:37</td>
+<td title="信息">&lt;P style=&quot;font-size:1em;color:#1C9340;&quot;&gt;&lt;b&gt;┌────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├────────┐&lt;br&gt;[目标]：检查实际结果是否为真&lt;br&gt;[实际]：40125　[预期]：40125&lt;br&gt;└─────────────────────────────┘&lt;/b&gt;&lt;/P&gt;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:58</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">CheckPoint.java:262</td>
+<td title="信息">&lt;P style=&quot;font-size:1em;color:#1C9340;&quot;&gt;&lt;b&gt;┌────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├────────┐&lt;br&gt;[目标]：检查实际结果是否为真&lt;br&gt;[实际]：40125　[预期]：40125&lt;br&gt;└─────────────────────────────┘&lt;/b&gt;&lt;/P&gt;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;index.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;index_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;index.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;index.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;head.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;head_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;head.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;head.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;nav.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;nav_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;nav.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;nav.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;test-view/test-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;test-view/test-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;test-view/test-view-charts.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view-charts_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/test-view-charts.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;test-view/test-view-charts.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;test-view/standard.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/standard_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;test-view/standard.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;test-view/standard.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">&quot;test-view/standard.ftl&quot;(&quot;en&quot;, UTF-8, parsed) cached copy not yet stale; using cached.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;category-view/category-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;category-view/category-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;category-view/category-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;category-view/category-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;author-view/author-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;author-view/author-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;author-view/author-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;author-view/author-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;exception-view/exception-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;exception-view/exception-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;exception-view/exception-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;exception-view/exception-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;dashboard-view/dashboard-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;dashboard-view/dashboard-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;dashboard-view/dashboard-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;dashboard-view/dashboard-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl&quot;</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Couldn't find template in cache for &quot;logs-view/testrunner-logs-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed); will try to load it.</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;logs-view/testrunner-logs-view_en.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">TemplateLoader.findTemplateSource(&quot;logs-view/testrunner-logs-view.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td title="执行时间">2017-07-31 00:41:59</td>
+<td title="级别"><font color="green">DEBUG</font></td>
+<td title="所在行">_Log4jLoggerFactory.java:45</td>
+<td title="信息">Loading template for &quot;logs-view/testrunner-logs-view.ftl&quot;(&quot;en&quot;, UTF-8, parsed) from &quot;jar:file:/Users/qiuwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl&quot;</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Automation Log</title>
+<meta charset="utf-8"><style type="text/css">
+<!--
+body, table {font-family: '微软雅黑',arial,sans-serif; font-size: 12px;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th width="13%">执行时间</th>
+<th width="8%">级别</th>
+<th width="15%">所在行</th>
+<th>信息</th>
+</tr>
+<br></br>

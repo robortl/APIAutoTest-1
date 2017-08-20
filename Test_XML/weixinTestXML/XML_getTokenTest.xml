@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="APITest" >
+
+    <test name="GetToken">
+        <classes>
+            <class name="com.newdream.api.weixinTest.Test_getToken"/>
+        </classes>
+    </test>
+
+    <listeners>
+     <listener class-name="com.newdream.api.utils.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

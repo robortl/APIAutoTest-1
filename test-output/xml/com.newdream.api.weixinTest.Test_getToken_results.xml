@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GetToken"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.461">
+  <properties />
+  
+  
+            <testcase name="getTokenTest" time="6.224" classname="com.newdream.api.weixinTest.Test_getToken" />
+                <testcase name="getTokenTest" time="0.237" classname="com.newdream.api.weixinTest.Test_getToken" />
+      
+</testsuite>
