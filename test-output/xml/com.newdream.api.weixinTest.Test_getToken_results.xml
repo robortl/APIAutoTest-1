@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="6.461">
+           time="2.049">
   <properties />
   
   
-            <testcase name="getTokenTest" time="6.224" classname="com.newdream.api.weixinTest.Test_getToken" />
-                <testcase name="getTokenTest" time="0.237" classname="com.newdream.api.weixinTest.Test_getToken" />
+            <testcase name="test" time="0.174" classname="com.newdream.api.weixinTest.Test_getToken" />
+                <testcase name="test" time="1.875" classname="com.newdream.api.weixinTest.Test_getToken" />
       
 </testsuite>

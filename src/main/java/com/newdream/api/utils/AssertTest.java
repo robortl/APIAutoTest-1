@@ -1,17 +1,13 @@
 package com.newdream.api.utils;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
-import org.assertj.core.api.SoftAssertions;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /**
  * Created by qiuwei on 2017/7/28.
@@ -39,6 +35,6 @@ public class AssertTest {
         list.add(0,new BasicNameValuePair("errcode","40013"));
         list.add(1,new BasicNameValuePair("errmsg","invalid appid"));
         System.out.println(list);
-        assertThat(list).as("list中包含").contains(new BasicNameValuePair("errcode","40013"));
+//        assertThat(list).as("list中包含").contains(new BasicNameValuePair("errcode","40013"));
     }
 }
